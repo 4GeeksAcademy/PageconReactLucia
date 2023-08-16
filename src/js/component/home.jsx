@@ -12,9 +12,9 @@ import rigoImage from "../../img/rigo-baby.jpg";
 const Home = () => {
 	return (
 
-		<div className="" >
+		<div>
 			<Navbar />
-			<div>
+			<div style={{ marginBottom: "50px" }}>
 				<Jumbatron />
 				<div className="container w-75 p-3 justify-content-center">
 					<div className="row row-cols-4 w-100 p-3 align-content-center mx-1 px-0 py-0">
@@ -26,8 +26,10 @@ const Home = () => {
 				</div>
 			</div>
 			<Footer />
-
 		</div>
+
+		
+
 	);
 };
 
